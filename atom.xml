@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[ECHONICS]]></title>
   <link href="http://echonics.github.io/atom.xml" rel="self"/>
   <link href="http://echonics.github.io/"/>
-  <updated>2017-01-14T06:06:07+02:00</updated>
+  <updated>2017-01-14T06:09:14+02:00</updated>
   <id>http://echonics.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Yaseen Twati]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
