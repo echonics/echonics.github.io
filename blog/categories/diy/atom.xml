@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[ECHONICS]]></title>
-  <link href="http://echonics.github.io/atom.xml" rel="self"/>
+
+  <title><![CDATA[Category: diy | ECHONICS]]></title>
+  <link href="http://echonics.github.io/blog/categories/diy/atom.xml" rel="self"/>
   <link href="http://echonics.github.io/"/>
   <updated>2017-01-14T10:26:37+02:00</updated>
   <id>http://echonics.github.io/</id>

@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>ECHONICS</title>
+  <title>DIY Smart LiPo Battery Charger/Balancer - ECHONICS</title>
   <meta name="author" content="Yaseen Twati">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://echonics.github.io/">
+  <link rel="canonical" href="http://echonics.github.io/blog/diy-digital-lipo-battery-charger/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -42,40 +42,17 @@
 </header>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/diy-digital-lipo-battery-charger/">DIY Smart LiPo Battery Charger/Balancer</a></h1>
+      <h1 class="entry-title">DIY Smart LiPo Battery Charger/Balancer</h1>
     
   </header>
 
 
-  
-    <p class="meta">
-      
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2016-12-01T15:09:40+02:00" pubdate data-updated="true"></time>
-      
-       | <a href="/blog/diy-digital-lipo-battery-charger/#disqus_thread">Comments</a>
-      
-    </p>
-  
-  
 
 <span class="categories">
   
@@ -84,7 +61,7 @@
 </span>
 
 
-  <div class="entry-content"><p>The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did not have a lipo charger since I spent all of my money on rest of the parts and my 3D printer.
+<div class="entry-content"><p>The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did not have a lipo charger since I spent all of my money on rest of the parts and my 3D printer.
 I did temp use some PCB from an old power bank to charge my batteries ( the power bank was based on a 3S LiPo ) but my batteries would get unbalanced over time as its not a balance charger ( balancing was done by the BMS on the battery itself ).
 It was actually the time to get working on a DIY Lipo charger which I can build with parts I can source locally / parts I already have.
 I started looking over internet but every single DIY charger I found was eaither unbalnced, 3 seperate chargers for every cell or based on some special IC i cant get my hands on, so why not design one my self ?
@@ -111,18 +88,54 @@ started by writing a list of required and optional features i wanned :</p>
 
 <h1>Microcontrolelr</h1>
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Yaseen Twati</span></span>
+
+      
+
+
+
+
+
+
+
+
   
 
 
-    </article>
+<time datetime="2016-12-01T15:09:40+02:00" pubdate data-updated="true"></time>
+    </p>
+    
+      <div class="sharing">
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://echonics.github.io/blog/diy-digital-lipo-battery-charger/" data-via="" data-counturl="http://echonics.github.io/blog/diy-digital-lipo-battery-charger/" >Tweet</a>
+  
+  
+  
 </div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <form action="https://www.google.com/search" method="get">
@@ -181,6 +194,7 @@ started by writing a list of required and optional features i wanned :</p>
 </aside>
 
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -195,7 +209,10 @@ started by writing a list of required and optional features i wanned :</p>
       var disqus_shortname = 'echonics';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://echonics.github.io/blog/diy-digital-lipo-battery-charger/';
+        var disqus_url = 'http://echonics.github.io/blog/diy-digital-lipo-battery-charger/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
