@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://echonics.github.io/blog/yes-blog/</loc>
+<lastmod>2016-12-01T15:09:40+02:00</lastmod>
+</url>
+<url>
+<loc>http://echonics.github.io/blog/just-some-name-for-some/</loc>
+<lastmod>2016-12-01T15:09:40+02:00</lastmod>
+</url>
+<url>
+<loc>http://echonics.github.io/blog/diy-digital-lipo-battery-charger%202ND/</loc>
+<lastmod>2016-12-01T15:09:40+02:00</lastmod>
+</url>
+<url>
 <loc>http://echonics.github.io/blog/diy-digital-lipo-battery-charger/</loc>
+<lastmod>2016-12-01T15:09:40+02:00</lastmod>
+</url>
+<url>
+<loc>http://echonics.github.io/blog/article/</loc>
 <lastmod>2016-12-01T15:09:40+02:00</lastmod>
 </url>
 <url>
@@ -12,5 +28,17 @@
 </url>
 <url>
 <loc>http://echonics.github.io/blog/categories/diy/</loc>
+</url>
+<url>
+<loc>http://echonics.github.io/blog/categories/tricopter/</loc>
+</url>
+<url>
+<loc>http://echonics.github.io/blog/categories/flight/</loc>
+</url>
+<url>
+<loc>http://echonics.github.io/blog/categories/magic/</loc>
+</url>
+<url>
+<loc>http://echonics.github.io/blog/categories/food/</loc>
 </url>
 </urlset>

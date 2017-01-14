@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: flight | ECHONICS]]></title>
+  <link href="http://echonics.github.io/blog/categories/flight/atom.xml" rel="self"/>
+  <link href="http://echonics.github.io/"/>
+  <updated>2017-01-14T23:07:28+02:00</updated>
+  <id>http://echonics.github.io/</id>
+  <author>
+    <name><![CDATA[Yaseen Twati, Jehad Oumer]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[DIY Smart LiPo Battery Charger/Balancer]]></title>
+    <link href="http://echonics.github.io/blog/just-some-name-for-some/"/>
+    <updated>2016-12-01T15:09:40+02:00</updated>
+    <id>http://echonics.github.io/blog/just-some-name-for-some</id>
+    <content type="html"><![CDATA[<p><img src="/images/BLOG1.JPG"></p>
+
+<p>The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did not have a lipo charger since I spent all of my money on rest of the parts and my 3D printer.
+I did temp use some PCB from an old power bank  <!--more--> to charge my batteries ( the power bank was based on a 3S LiPo ) but my batteries would get unbalanced over time as its not a balance charger ( balancing was done by the BMS on the battery itself ).
+It was actually the time to get working on a DIY Lipo charger which I can build with parts I can source locally / parts I already have.
+I started looking over internet but every single DIY charger I found was eaither unbalnced, 3 seperate chargers for every cell or based on some special IC i cant get my hands on, so why not design one my self ?
+started by writing a list of required and optional features i wanned :</p>
+
+<p>Required :</p>
+
+<pre><code>* atleast 1S-3S
+* atleast 2.5A charger power
+* digital ( AVR Based )
+* balnced charging ( obviously )
+* Battery discharging and capacity testing
+* LCD Screen interface
+</code></pre>
+
+<p>Optional :</p>
+
+<pre><code>* 4S ?
+* support for other types of batteries other than LI-Po/Ion
+* 3A charge power
+</code></pre>
+
+<p>Looks like a long list buti wanned something i can depend on, i can my goal set .. so i got started :D</p>
+
+<h1>Microcontrolelr</h1>
+]]></content>
+  </entry>
+  
+</feed>

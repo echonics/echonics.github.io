@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <title>ECHONICS</title>
-  <meta name="author" content="Yaseen Twati">
+  <meta name="author" content="Yaseen Twati, Jehad Oumer">
 
   
   <meta name="description" content="The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did &hellip;">
@@ -35,46 +35,128 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <img src="/images/ah_frame_transparent.svg" />
-  <h1><a href="/">ECHONICS</a></h1>
+  <img class="top-logo" src="/images/logo.svg" />
+  <!-- <h1><a href="/">ECHONICS</a></h1> -->
 </hgroup>
 
 </header>
   <div id="main">
     <div id="content">
       <div class="blog-index">
-  
-  
-  
+
+    
+
+<article>
+    <ul class="topnav" id="topnavid">
+    
+    <li><a href="">Home</a></li>
+    <li><a href="">Shop</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Contact</a></li>
+    
+    <li class="icon">
+        <a href="javascript:void(0);" onclick="NavFunction()">&#9776;</a>
+    </li>
+</ul>
+
+
+
+    
+    <form action="https://www.google.com/search" method="get">
+      <fieldset role="search">
+        <input type="hidden" name="q" value="site:echonics.github.io" />
+        <input style="align : center; border : none; background-color : #005382; color : #ffeb90; width : 100%; padding: .5em .5em; font-size : .85em; line-height : 1.1em;" class="search" type="text" name="q" results="0" placeholder="Search"/>
+      </fieldset>
+    </form>
+    
+</article>
+
+    
+    
+
     <article>
-      
+        
   <header>
     
-      <h1 class="entry-title"><a href="/blog/diy-digital-lipo-battery-charger/">DIY Smart LiPo Battery Charger/Balancer</a></h1>
+      <h1 class="entry-title"><a href="/blog/yes-blog/">DIY Smart LiPo Battery Charger/Balancer</a></h1>
     
   </header>
 
 
   
-    <p class="meta">
-      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/diy/'>diy</a>, <a class='category' href='/blog/categories/food/'>food</a>, <a class='category' href='/blog/categories/magic/'>magic</a>
+  
+</span>
 
 
+  
+  
+  <div class="entry-content"><p><img src="/images/BLOG2.JPG"></p>
+
+<p>The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did not have a lipo charger since I spent all of my money on rest of the parts and my 3D printer.
+I did temp use some PCB from an old power bank  </div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/yes-blog/">Read on &rarr;</a>
+    </footer>
+  
 
 
+    </article>
 
+    
+    
 
+    <article>
+        
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/just-some-name-for-some/">DIY Smart LiPo Battery Charger/Balancer</a></h1>
+    
+  </header>
 
 
   
 
-
-<time datetime="2016-12-01T15:09:40+02:00" pubdate data-updated="true"></time>
-      
-       | <a href="/blog/diy-digital-lipo-battery-charger/#disqus_thread">Comments</a>
-      
-    </p>
+<span class="categories">
   
+    <a class='category' href='/blog/categories/diy/'>diy</a>, <a class='category' href='/blog/categories/flight/'>flight</a>, <a class='category' href='/blog/categories/tricopter/'>tricopter</a>
+  
+</span>
+
+
+  
+  
+  <div class="entry-content"><p><img src="/images/BLOG1.JPG"></p>
+
+<p>The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did not have a lipo charger since I spent all of my money on rest of the parts and my 3D printer.
+I did temp use some PCB from an old power bank  </div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/just-some-name-for-some/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+
+    
+    
+
+    <article>
+        
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/diy-digital-lipo-battery-charger%202ND/">Super Simple Programming</a></h1>
+    
+  </header>
+
+
   
 
 <span class="categories">
@@ -84,39 +166,93 @@
 </span>
 
 
-  <div class="entry-content"><p>The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did not have a lipo charger since I spent all of my money on rest of the parts and my 3D printer.
-I did temp use some PCB from an old power bank to charge my batteries ( the power bank was based on a 3S LiPo ) but my batteries would get unbalanced over time as its not a balance charger ( balancing was done by the BMS on the battery itself ).
-It was actually the time to get working on a DIY Lipo charger which I can build with parts I can source locally / parts I already have.
-I started looking over internet but every single DIY charger I found was eaither unbalnced, 3 seperate chargers for every cell or based on some special IC i cant get my hands on, so why not design one my self ?
-started by writing a list of required and optional features i wanned :</p>
-
-<p>Required :</p>
-
-<pre><code>* atleast 1S-3S
-* atleast 2.5A charger power
-* digital ( AVR Based )
-* balnced charging ( obviously )
-* Battery discharging and capacity testing
-* LCD Screen interface
-</code></pre>
-
-<p>Optional :</p>
-
-<pre><code>* 4S ?
-* support for other types of batteries other than LI-Po/Ion
-* 3A charge power
-</code></pre>
-
-<p>Looks like a long list buti wanned something i can depend on, i can my goal set .. so i got started :D</p>
-
-<h1>Microcontrolelr</h1>
-</div>
   
+  
+  <div class="entry-content"><p><img src="/images/BLOG2.JPG"></p>
+
+<p>The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did not have a lipo charger since I spent all of my money on rest of the parts and my 3D printer.
+I did temp use some PCB from an old power bank  </div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/diy-digital-lipo-battery-charger%202ND/">Read on &rarr;</a>
+    </footer>
   
 
 
     </article>
+
+    
+    
+
+    <article>
+        
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/diy-digital-lipo-battery-charger/">Creating Your Own Multiverse</a></h1>
+    
+  </header>
+
+
   
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/diy/'>diy</a>
+  
+</span>
+
+
+  
+  
+  <div class="entry-content"><p>The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did not have a lipo charger since I spent all of my money on rest of the parts and my 3D printer.
+I did temp use some PCB from an old power bank  </div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/diy-digital-lipo-battery-charger/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+
+    
+    
+
+    <article>
+        
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/article/">Some Other Article</a></h1>
+    
+  </header>
+
+
+  
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/diy/'>diy</a>
+  
+</span>
+
+
+  
+  
+  <div class="entry-content"><p>The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did not have a lipo charger since I spent all of my money on rest of the parts and my 3D printer.
+I did temp use some PCB from an old power bank  </div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/article/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+
+    
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -124,68 +260,52 @@ started by writing a list of required and optional features i wanned :</p>
   </div>
 </div>
 <aside class="sidebar">
-  
-    <form action="https://www.google.com/search" method="get">
-      <fieldset role="search">
-        <input type="hidden" name="q" value="site:echonics.github.io" />
-        <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-      </fieldset>
-    </form>
-  
+
+
   
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/diy-digital-lipo-battery-charger/">DIY Smart LiPo Battery Charger/Balancer</a>
+        <a href="/blog/yes-blog/">DIY Smart LiPo Battery Charger/Balancer</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/just-some-name-for-some/">DIY Smart LiPo Battery Charger/Balancer</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/diy-digital-lipo-battery-charger%202ND/">Super Simple Programming</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/diy-digital-lipo-battery-charger/">Creating Your Own Multiverse</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/article/">Some Other Article</a>
       </li>
     
   </ul>
 </section>
 
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/YaseenTwati">@YaseenTwati</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'YaseenTwati',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
 
 
 
 
   
+
 </aside>
 
 
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2017 - Yaseen Twati -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  Copyright &copy; 2017 - Yaseen Twati, Jehad Oumer
+</p>
+<p>
+<span>We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to Amazon.com and affiliated sites.</span>
 </p>
 
 </footer>

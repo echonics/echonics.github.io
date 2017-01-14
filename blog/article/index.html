@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - ECHONICS</title>
+  <title>Some Other Article - ECHONICS</title>
   <meta name="author" content="Yaseen Twati, Jehad Oumer">
 
   
-  <meta name="description" content="Blog Archive 2016 DIY Smart LiPo Battery Charger/Balancer
-Dec 01 2016 diy, food, magic DIY Smart LiPo Battery Charger/Balancer
-Dec 01 2016 diy, &hellip;">
+  <meta name="description" content="The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@ Dec 01 2016 diy, &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://echonics.github.io/blog/archives/">
+  <link rel="canonical" href="http://echonics.github.io/blog/article/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -45,92 +43,98 @@ Dec 01 2016 diy, &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Some Other Article</h1>
     
   </header>
+
+
+
+
+<span class="categories">
   
-  <div id="blog-archives">
-
-
-
+    <a class='category' href='/blog/categories/diy/'>diy</a>
   
-  <h2>2016</h2>
-
-<article>
-  
-<h1><a href="/blog/yes-blog/">DIY Smart LiPo Battery Charger/Balancer</a></h1>
-<time datetime="2016-12-01T15:09:40+02:00" pubdate><span class='month'>Dec</span> <span class='day'>01</span> <span class='year'>2016</span></time>
-
-<footer>
-  <span class="categories"><a class='category' href='/blog/categories/diy/'>diy</a>, <a class='category' href='/blog/categories/food/'>food</a>, <a class='category' href='/blog/categories/magic/'>magic</a></span>
-</footer>
+</span>
 
 
-</article>
+<div class="entry-content"><p>The past last weeks I was working on cpuple of projects which one of them was a Tricopter, and some how I had to charge my LiPo Batteries as i did not have a lipo charger since I spent all of my money on rest of the parts and my 3D printer.
+I did temp use some PCB from an old power bank  <!--more--> to charge my batteries ( the power bank was based on a 3S LiPo ) but my batteries would get unbalanced over time as its not a balance charger ( balancing was done by the BMS on the battery itself ).
+It was actually the time to get working on a DIY Lipo charger which I can build with parts I can source locally / parts I already have.
+I started looking over internet but every single DIY charger I found was eaither unbalnced, 3 seperate chargers for every cell or based on some special IC i cant get my hands on, so why not design one my self ?
+started by writing a list of required and optional features i wanned :</p>
 
+<p>Required :</p>
 
+<pre><code>* atleast 1S-3S
+* atleast 2.5A charger power
+* digital ( AVR Based )
+* balnced charging ( obviously )
+* Battery discharging and capacity testing
+* LCD Screen interface
+</code></pre>
 
-<article>
-  
-<h1><a href="/blog/just-some-name-for-some/">DIY Smart LiPo Battery Charger/Balancer</a></h1>
-<time datetime="2016-12-01T15:09:40+02:00" pubdate><span class='month'>Dec</span> <span class='day'>01</span> <span class='year'>2016</span></time>
+<p>Optional :</p>
 
-<footer>
-  <span class="categories"><a class='category' href='/blog/categories/diy/'>diy</a>, <a class='category' href='/blog/categories/flight/'>flight</a>, <a class='category' href='/blog/categories/tricopter/'>tricopter</a></span>
-</footer>
+<pre><code>* 4S ?
+* support for other types of batteries other than LI-Po/Ion
+* 3A charge power
+</code></pre>
 
+<p>Looks like a long list buti wanned something i can depend on, i can my goal set .. so i got started :D</p>
 
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/diy-digital-lipo-battery-charger%202ND/">Super Simple Programming</a></h1>
-<time datetime="2016-12-01T15:09:40+02:00" pubdate><span class='month'>Dec</span> <span class='day'>01</span> <span class='year'>2016</span></time>
-
-<footer>
-  <span class="categories"><a class='category' href='/blog/categories/diy/'>diy</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/diy-digital-lipo-battery-charger/">Creating Your Own Multiverse</a></h1>
-<time datetime="2016-12-01T15:09:40+02:00" pubdate><span class='month'>Dec</span> <span class='day'>01</span> <span class='year'>2016</span></time>
-
-<footer>
-  <span class="categories"><a class='category' href='/blog/categories/diy/'>diy</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/article/">Some Other Article</a></h1>
-<time datetime="2016-12-01T15:09:40+02:00" pubdate><span class='month'>Dec</span> <span class='day'>01</span> <span class='year'>2016</span></time>
-
-<footer>
-  <span class="categories"><a class='category' href='/blog/categories/diy/'>diy</a></span>
-</footer>
-
-
-</article>
-
+<h1>Microcontrolelr</h1>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Yaseen Twati, Jehad Oumer</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-12-01T15:09:40+02:00" pubdate data-updated="true"></time>
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://echonics.github.io/blog/article/" data-via="" data-counturl="http://echonics.github.io/blog/article/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/blog/diy-digital-lipo-battery-charger/" title="Next Post: Creating Your Own Multiverse">Creating Your Own Multiverse &raquo;</a>
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -191,7 +195,10 @@ Dec 01 2016 diy, &hellip;">
       var disqus_shortname = 'echonics';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://echonics.github.io/blog/article/';
+        var disqus_url = 'http://echonics.github.io/blog/article/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
